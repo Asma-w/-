@@ -39,7 +39,7 @@ class _AdminHomePageState extends State<AdminHomePage> {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         bottomNav('All Stores', 0),
-                        bottomNav('All Customer', 1),
+                        bottomNav('All Customers', 1),
                       ],
                     ),
                   ),

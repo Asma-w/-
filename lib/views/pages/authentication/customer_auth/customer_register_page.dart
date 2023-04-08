@@ -30,7 +30,7 @@ class CustomerRegisteerPage extends StatelessWidget {
               const BackButton(),
               const Spacer(),
               Text(
-                'Customer Register',
+                'Customer Registeration',
                 style: GoogleFonts.poppins(
                     color: Colors.black,
                     fontWeight: FontWeight.bold,

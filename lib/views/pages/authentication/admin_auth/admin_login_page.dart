@@ -67,7 +67,7 @@ class AdminLoginPage extends StatelessWidget {
                 ),
               ),
               CommonButton(
-                text: 'Admin Login',
+                text: 'Login',
                 onTap: () {
                   Get.offAll(() => const AdminRootPage());
                 },

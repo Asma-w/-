@@ -25,7 +25,7 @@ class StoreLoginPage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                'Store Login',
+                'Login',
                 style: GoogleFonts.poppins(
                     color: Colors.black,
                     fontWeight: FontWeight.bold,

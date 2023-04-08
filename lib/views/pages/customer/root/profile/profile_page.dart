@@ -42,12 +42,12 @@ class ProfilePage extends StatelessWidget {
               ),
               SizedBox(height: Get.height * 0.02),
               Text(
-                'Bilal Nazir',
+                'Mohanad',
                 style: GoogleFonts.poppins(
                     fontSize: 16, fontWeight: FontWeight.w500),
               ),
               Text(
-                'bnazir839@gmail.com',
+                'mohanad@gmail.com',
                 style: GoogleFonts.poppins(
                     fontSize: 12, fontWeight: FontWeight.w400),
               ),

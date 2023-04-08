@@ -47,7 +47,7 @@ class AllCustomersPage extends StatelessWidget {
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Text(
-                                      'Customer Name Here',
+                                      'Mohanad',
                                       style: GoogleFonts.poppins(
                                         fontSize: 14,
                                         fontWeight: FontWeight.w500,
@@ -55,7 +55,7 @@ class AllCustomersPage extends StatelessWidget {
                                       ),
                                     ),
                                     Text(
-                                      'usamaashraf@gmail.com',
+                                      'mohanad@gmail.com',
                                       style: GoogleFonts.poppins(
                                         fontSize: 12,
                                         fontWeight: FontWeight.w500,
@@ -137,7 +137,7 @@ class AllCustomersPage extends StatelessWidget {
                                               );
                                             },
                                             child: Text(
-                                              'Delete Customer',
+                                              'Remove Customer',
                                               style: GoogleFonts.poppins(
                                                   fontSize: 12),
                                             ),
@@ -169,7 +169,7 @@ class AllCustomersPage extends StatelessWidget {
                                                               .center,
                                                       children: [
                                                         Text(
-                                                          'Did you want to block this customer?',
+                                                          'Did you want to ban this customer?',
                                                           style: GoogleFonts
                                                               .poppins(
                                                                   fontSize: 18),
@@ -210,7 +210,7 @@ class AllCustomersPage extends StatelessWidget {
                                               );
                                             },
                                             child: Text(
-                                              'Block Customer',
+                                              'Ban Customer',
                                               style: GoogleFonts.poppins(
                                                   fontSize: 12),
                                             ),

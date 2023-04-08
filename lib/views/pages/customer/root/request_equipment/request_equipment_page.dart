@@ -45,14 +45,14 @@ class RequestEquipment extends StatelessWidget {
                           children: [
                             const SizedBox(width: 10),
                             Text(
-                              "Store name: Abdul Malik",
+                              "Store name: AbdulMalik store",
                               maxLines: 2,
                               overflow: TextOverflow.ellipsis,
                               style: GoogleFonts.poppins(
                                   fontSize: 11, color: Colors.grey),
                             ),
                             Text(
-                              "Equipment name: ",
+                              "Equipment name: Tent",
                               maxLines: 2,
                               overflow: TextOverflow.ellipsis,
                               style: GoogleFonts.poppins(

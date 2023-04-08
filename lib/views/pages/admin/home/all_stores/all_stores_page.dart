@@ -17,6 +17,7 @@ class AllStoresPage extends StatelessWidget {
         children: [
           Expanded(
             child: GridView.builder(
+              itemCount: 10,
               gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                   crossAxisCount: 2, mainAxisSpacing: 2, crossAxisSpacing: 2),
               itemBuilder: (context, index) {
@@ -47,7 +48,7 @@ class AllStoresPage extends StatelessWidget {
                             ),
                             const SizedBox(height: 10),
                             Text(
-                              'Shop Name',
+                              'Store Name: Mohanad Store',
                               style: GoogleFonts.poppins(
                                 fontSize: 14,
                                 color: Colors.black,
@@ -87,7 +88,7 @@ class AllStoresPage extends StatelessWidget {
                                                 MainAxisAlignment.center,
                                             children: [
                                               Text(
-                                                'Did you want to delete this seller?',
+                                                'Do you want to remove this store?',
                                                 style: GoogleFonts.poppins(
                                                     fontSize: 18),
                                               ),
@@ -124,7 +125,7 @@ class AllStoresPage extends StatelessWidget {
                                     );
                                   },
                                   child: Text(
-                                    'Delete Shop',
+                                    'Remove store',
                                     style: GoogleFonts.poppins(fontSize: 12),
                                   ),
                                 ),
@@ -148,7 +149,7 @@ class AllStoresPage extends StatelessWidget {
                                                 MainAxisAlignment.center,
                                             children: [
                                               Text(
-                                                'Did you want to block this seller?',
+                                                'Do you want to Ban this store?',
                                                 style: GoogleFonts.poppins(
                                                     fontSize: 18),
                                               ),
@@ -185,7 +186,7 @@ class AllStoresPage extends StatelessWidget {
                                     );
                                   },
                                   child: Text(
-                                    'Block Seller',
+                                    'Ban Store',
                                     style: GoogleFonts.poppins(fontSize: 12),
                                   ),
                                 ),

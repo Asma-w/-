@@ -80,7 +80,7 @@ class InventoryOfStorePage extends StatelessWidget {
                                         CrossAxisAlignment.start,
                                     children: [
                                       Text(
-                                        'Home For rent',
+                                        'Equipement name: tent',
                                         style: GoogleFonts.poppins(
                                             fontSize: 14,
                                             fontWeight: FontWeight.w500),
@@ -88,7 +88,7 @@ class InventoryOfStorePage extends StatelessWidget {
                                       SizedBox(
                                         width: Get.width * 0.6,
                                         child: Text(
-                                          'Home For rent Loremipsum text alsjfdh;jf jd;fa ;dj Home For rent Loremipsum text alsjfdh;jf jd;fa ;dj Home For rent Loremipsum text alsjfdh;jf jd;fa ;dj Home For rent Loremipsum text alsjfdh;jf jd;fa ;dj',
+                                          'Description about the post',
                                           maxLines: 3,
                                           overflow: TextOverflow.ellipsis,
                                           style: GoogleFonts.poppins(
@@ -129,7 +129,7 @@ class InventoryOfStorePage extends StatelessWidget {
                                       SizedBox(
                                         width: Get.width * 0.6,
                                         child: CommonButton(
-                                          text: 'Delete Equipment',
+                                          text: 'Remove Equipment',
                                           onTap: () {
                                             Get.bottomSheet(
                                               Container(
@@ -154,7 +154,7 @@ class InventoryOfStorePage extends StatelessWidget {
                                                             .center,
                                                     children: [
                                                       Text(
-                                                        'Did you want to delete this equipment?',
+                                                        'Do you want to remove this equipment?',
                                                         style:
                                                             GoogleFonts.poppins(
                                                                 fontSize: 18),
